@@ -3,8 +3,14 @@ package utils
 import (
 	"fmt"
 	"os"
+	"os/user"
 )
+// 获取用户名，电脑的登录名
+func GetUserName() string {
+	u, _ := user.Current()
 
+	return u.Username
+}
 
 
 // 创建文件夹，然后写入文件

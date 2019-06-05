@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-var defaultPath = "/Users/xiaoma/Sites/www/dd/"
+var defaultPath = "/Users/" + utils.GetUserName() + "/Sites/www/interface/"
 
 func main() {
 	path :=  os.Args[1]
