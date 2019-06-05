@@ -59,6 +59,6 @@ Require all granted
 开启
 `Include /private/etc/apache2/users/*.conf`
 
-####2.1.4 重启
+#### 2.1.4 重启
 重启 Apache `apachectl restart`
 
