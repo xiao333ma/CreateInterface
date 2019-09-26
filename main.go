@@ -32,8 +32,8 @@ func main() {
 	createPHPFile(fullPath, fileName)
 	createJSONFile(fullPath, fileName)
 	fmt.Printf("🍻 创建完成 可以打开以下连接查看 👇 \n")
-	l, r := getURL(fullPath + "/" + fileName)
-	fmt.Print(l + "\n" + r)
+	l, r := getURL(fullPath + fileName)
+	fmt.Print(l + "\n" + r + "\n")
 	commandString := "open " + fullPath + "/" + fileName + ".json" + " -a Visual\\ Studio\\ Code"
 	_ = exec.Command("/bin/bash", "-c", commandString).Run()
 
