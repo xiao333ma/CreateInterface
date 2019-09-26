@@ -78,7 +78,7 @@ func getURL(fullPath string) (string, string){
 }
 
 func getLocalURL() string {
-	return "http://127.0.0.1/"
+	return "http://127.0.0.1"
 }
 
 func getRemoteURL() string {
