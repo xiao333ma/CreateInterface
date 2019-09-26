@@ -9,7 +9,7 @@ import (
 func GetUserName() string {
 	u, _ := user.Current()
 
-	return u.Username
+	return u.HomeDir
 }
 
 

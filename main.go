@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-var defaultPath = "/Users/" + utils.GetUserName() + "/Sites/www/interface/"
+var defaultPath = utils.GetUserName() + "/Sites/www/interface/"
 
 func main() {
 	path :=  os.Args[1]
