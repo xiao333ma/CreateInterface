@@ -6,7 +6,7 @@
 ### 1.使用方法
 在终端执行以下命令
 ```sh
-createInterface your/interface/path/name
+./CreateInterface your/interface/path/name
 ```
 
 将会在以下目录中生成对应的 `php` 和 `json` 文件
@@ -25,7 +25,7 @@ http://127.0.0.1/~yourname/www/interface/your/interface/path/name.php
 
 ### 2.环境
 
-需要配合 `php` 使用
+需要配合 `PHP` 使用
 
 Mac 上开启 php 并更改到对应目录
 
